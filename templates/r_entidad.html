@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-</head>
+
+  </head>
 <body>
   <!--barra de navegacion-->
 <section class="menunav">
@@ -40,7 +41,7 @@
                   <li><a class="dropdown-item" href="#">Empleo</a></li>
                   <li><a class="dropdown-item" href="#">Descanso</a></li>
                   <li><a class="dropdown-item" href="#">Psicologia</a></li>
-                  <li><a class="dropdown-item" href="#">Ejercicio</a></li>
+                  <li><a class="dropdown-item" href="">Ejercicio</a></li>
                   <li><a class="dropdown-item" href="#">Lavanderia comunitaria</a></li>
                   <li><a class="dropdown-item" href="#">Estudio</a></li>
                   <li><a class="dropdown-item" href="#">Recibir orientacion</a></li>
@@ -63,158 +64,98 @@
       </section>
       </nav>
 </section>
+<!--fin de la barra de navegacion-->
 
-<!--fin de la barra-->
 
-<!--banner--> 
-<center><div class="banner">
-<div><img src="https://images.pexels.com/photos/6339465/pexels-photo-6339465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid" alt="" style="border-radius: 30px"></div>
-<div class="ejer"><h1 style="font-size: 100px;">Ejercicio</h1></div>
-</div></center>
-<!--fin banner-->
-<br><br><br>
-<!--info-->
-<section class="desc">
-  <div class="container text-center">
-    <div class="row">
-      <div class="col"><br><br><br><br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est exercitationem veritatis deleniti enim accusantium! Nemo, quibusdam minima ipsum neque nisi reprehenderit officiis tempora nobis, odit magni fugiat amet accusantium deserunt!</p>
-      </div>
-      <div class="col">
-        <img src="https://images.pexels.com/photos/6339452/pexels-photo-6339452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" width="350px" style="border-radius: 30px;">
-      </div>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Registro de Manzanas</title>
+    <!-- Incluye Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-4">Registro de Manzanas</h2>
+        <form action="procesar_registro.php" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" class="form-control" id="direccion" name="direccion" required>
+            </div>
+
+            <div class="form-group">
+                <label for="localidad">Localidad:</label>
+                <input type="text" class="form-control" id="localidad" name="localidad" required>
+            </div>
+
+            <center><button type="submit" class="btn btn-primary">Registrar</button></center>
+        </form>
     </div>
-  </div>
-</section>
-<!--info-->
+    
+    <br><br><br>
 
-<center><h1>Ejercicios que puedes realizar en casa</h1></center>
-
-<section>
-  <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="https://media.giphy.com/media/DBbPjLMsQPruMkDcrd/giphy.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Yoga</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-success"  style="background-color: rgb(15, 189, 15); border-color: rgb(15, 189, 15);" >Mas informacion</button>
-              </div>
-            </div>
-        </div> <br><br><br>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="https://media.giphy.com/media/2shBOu1tRvbnzK1y75/giphy.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Aerobicos</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-success" style="background-color: rgb(15, 189, 15); border-color: rgb(15, 189, 15);">Mas informacion</button>
-              </div>
-            </div>
-        </div> <br><br><br>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="https://media.giphy.com/media/LBVVyhcgc443b89tAd/giphy.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Bicicleta</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-success" style="background-color: rgb(15, 189, 15); border-color: rgb(15, 189, 15);">Mas informacion</button>
-              </div>
-            </div>
-        </div> <br><br><br>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="https://media.giphy.com/media/9RUNLDje8reCnbNzgv/giphy.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Natacion</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-success" style="background-color: rgb(15, 189, 15); border-color: rgb(15, 189, 15);">Mas informacion</button>
-              </div>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="https://media.giphy.com/media/xX8pjR7MrgaTQn9CMx/giphy.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Bailar</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-success" style="background-color: rgb(15, 189, 15); border-color: rgb(15, 189, 15);">Mas informacion</button>
-              </div>
-            </div>
-        </div>
-        <br><br><br>
-        <div class="col">
-          <div class="card" style="width: 18rem;">
-              <img src="https://media.giphy.com/media/l3vRkfpjAi5ljuDPG/giphy.gif" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Carrera</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <button type="button" class="btn btn-success" style="background-color: rgb(15, 189, 15); border-color: rgb(15, 189, 15);">Mas informacion</button>
-
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-</section>
-
-<!--tarjetas de noticias-->
-<br><br><br><br><br><br><br>
-
-
-
-
- 
+    <!-- Incluye Bootstrap JS y jQuery (opcional) para funcionalidad adicional -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+</html>
+
+
 
 <div class="bg-black">
-  <footer>
-  <!-- Footer -->
-  
-  <footer class="text-center text-lg-start bg-black text-muted">
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <div class="row mt-3">
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4 text-light">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1CBB2nkviydSwM8PFbmuLNHfvNK1cqtTlp3DYpY4yNSM91ldZL22r1SMiwTVOprG0w&usqp=CAU" alt="" height="80px" width="250px">
-              <i class="fas fa-gem me-3 text-light" ></i></h6><p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex officiis, facere adipisci alias, deserunt assumenda pariatur veniam, accusantium autem tenetur temporibus rerum voluptatibus quis! Ipsam earum nobis quia corporis non!
-            </p>
+    <footer>
+    <!-- Footer -->
+    
+    <footer class="text-center text-lg-start bg-black text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4 text-light">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK1CBB2nkviydSwM8PFbmuLNHfvNK1cqtTlp3DYpY4yNSM91ldZL22r1SMiwTVOprG0w&usqp=CAU" alt="" height="80px" width="250px">
+                <i class="fas fa-gem me-3 text-light" ></i></h6><p class="text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex officiis, facere adipisci alias, deserunt assumenda pariatur veniam, accusantium autem tenetur temporibus rerum voluptatibus quis! Ipsam earum nobis quia corporis non!
+              </p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4 text-light">
+                redes sociales
+              </h6>
+              <p class="text-light">
+                <a href="#!" class="text-reset"><img src="https://www.flaticon.es/icono-gratis/facebook_5968764?term=facebook&page=1&position=12&origin=search&related_id=5968764" alt="" width="30px">manzanitaoficial</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset">Twitter: @manzanitaoficial</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset ">Tiktok: @Manzanita_oficial</a>
+              </p>
+              <p class="text-light">
+                <a href="#!" class="text-reset">WhatsApp: 324-786-0973</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4 text-light" >Correo</h6>
+              <p class="text-light"><i class="fas fa-home me-3 text-light"></i>manzanita@gmail.com
+            </p> <br><br><br><br><br><br><br> <br> <br><br><br>
+            <center<div class="text-center p-4 text-light" style="background-color: rgba(0, 0, 0, 0.05);" >
+              © 2023 Copyright:
+              <a class="text-reset fw-bold" href="https://www.sena.edu.co">SENASoft</a>
+            </div>></center>
           </div>
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase fw-bold mb-4 text-light">
-              redes sociales
-            </h6>
-            <p class="text-light">
-              <a href="#!" class="text-reset"><img src="https://www.flaticon.es/icono-gratis/facebook_5968764?term=facebook&page=1&position=12&origin=search&related_id=5968764" alt="" width="30px">manzanitaoficial</a>
-            </p>
-            <p class="text-light">
-              <a href="#!" class="text-reset">Twitter: @manzanitaoficial</a>
-            </p>
-            <p class="text-light">
-              <a href="#!" class="text-reset ">Tiktok: @Manzanita_oficial</a>
-            </p>
-            <p class="text-light">
-              <a href="#!" class="text-reset">WhatsApp: 324-786-0973</a>
-            </p>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase fw-bold mb-4 text-light" >Correo</h6>
-            <p class="text-light"><i class="fas fa-home me-3 text-light"></i>manzanita@gmail.com
-          </p> <br><br><br><br><br><br><br> <br> <br><br><br>
-          <center<div class="text-center p-4 text-light" style="background-color: rgba(0, 0, 0, 0.05);" >
-            © 2023 Copyright:
-            <a class="text-reset fw-bold" href="https://www.sena.edu.co">SENASoft</a>
-          </div>></center>
         </div>
-      </div>
-    </section>
-    <!-- Section: Links  -->
-  </footer>
-  <!-- Footer -->
-  </footer>
-  </div>
-  </html>
+      </section>
+      <!-- Section: Links  -->
+    </footer>
+    <!-- Footer -->
+    </footer>
+    </div>
+    </html>

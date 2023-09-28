@@ -12,6 +12,7 @@
 
 h1{
     padding: 70px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .img-fluid{
@@ -37,8 +38,8 @@ h1{
     
 }
 
-.botones{
-    .btn-bd-primary {
+
+    .btn btn-primary {
         --bs-btn-font-weight: 600;
         --bs-btn-color: var(--bs-white);
         --bs-btn-bg: var(--bd-violet-bg);
@@ -51,7 +52,7 @@ h1{
         --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
         --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
       }
+
+p{
+    font-family: 'Poppins', sans-serif;
 }
-
-
-  
