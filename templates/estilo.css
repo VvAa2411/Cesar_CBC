@@ -1,7 +1,9 @@
+
 .menuvav{
     position: fixed;
     background: white
 }
+
 .redes{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -53,6 +55,71 @@ h1{
         --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
       }
 
-p{
+ h1, h2{
     font-family: 'Poppins', sans-serif;
+    background:rgb(255, 255, 255); 
+    color:rgb(0, 0, 0);  
+    padding:10px; border:3px solid rgb(67, 223, 28); 
+    margin: 15px;
+    border-radius: 15px;
+    font-weight: bold;
 }
+
+
+
+
+
+
+
+    .navbar {
+        
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background: #ddd;
+        color: black;
+      }
+      .banerc{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        background:  rgb(67, 223, 28);
+        border:solid rgb(193, 0, 252); 
+
+      }
+      .form-label{
+        color: black;
+      }
+
+      .manzana{
+        font-family: 'Poppins', sans-serif;
+        background:rgb(255, 255, 255); 
+        color:rgb(0, 0, 0);  
+        padding:10px; border:3px solid rgb(67, 223, 28); 
+        margin: 15px;
+        border-radius: 15px;
+      }
+
+      .mision{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        padding:10px;
+
+
+      }
+
